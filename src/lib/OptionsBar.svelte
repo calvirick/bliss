@@ -1,7 +1,7 @@
 <div class="bg-[#808081] px-10 gap-10 flex">
 	<div class="dropdown hover:bg-slate-500 px-3">
 		<button>File</button>
-		<div class="dropdown-content" style="left:0;">
+		<div class="dropdown-content left-0">
 			<a href="#">Settings</a>
 			<a href="#"><s>Quit Game</s></a>
 		</div>
@@ -9,18 +9,23 @@
 
 	<div class="dropdown hover:bg-slate-500 px-3">
 		<button>Help</button>
-		<div class="dropdown-content" style="left:0;">
+		<div class="dropdown-content left-0">
 			<a href="#" class="">Manuel</a>
 			<a href="#">Hints</a>
 			<a href="#">Documentation</a>
+		</div>
+	</div>
+	<div class="dropdown hover:bg-slate-500 px-3">
+		<button>DM Tools</button>
+		<div class="dropdown-content left-0 w-64">
+			<a href="https://dm.tools/tracker" target="_blank">Initiative Tracker</a>
 		</div>
 	</div>
 </div>
 
 <style lang="postcss">
 	.dropdown {
-		position: relative;
-		display: inline-block;
+		@apply relative inline-block;
 	}
 
 	.dropdown-content {
