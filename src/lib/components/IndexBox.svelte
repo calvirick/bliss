@@ -2,8 +2,8 @@
 	export let title: string;
 </script>
 
-<div class="relative mt-8 w-[420px] rounded-sm border border-white bg-[#0d0080]">
-	<h3 class="z-5 absolute -top-5 left-5 bg-[#0d0080] p-4 font-bold" style="user-select: none">
+<div class=" relative mt-8 w-[420px] rounded-sm border border-white">
+	<h3 class="z-5 bg-terminal absolute -top-5 left-5 p-4 font-bold" style="user-select: none">
 		{title}
 	</h3>
 

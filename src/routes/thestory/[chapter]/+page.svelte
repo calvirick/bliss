@@ -1,3 +1,5 @@
+<!-- TODO: just make this dynamic and have it read a markdown file eventually -->
+
 <h4 id="story-title" class="my-6 font-extrabold text-red-500">Story Title goes here</h4>
 <p>
 	Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam debitis voluptates unde sit

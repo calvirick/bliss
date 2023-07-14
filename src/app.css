@@ -4,7 +4,11 @@
 
 body {
 	font-family: 'Fira Mono', monospace;
-	/* background: #0f100f; */
-	background: #0d0080;
+	background: #0f100f;
+	/* background: #0d0080; */
 	color: #fff;
+}
+
+.bg-terminal {
+	background: #0f100f;
 }
