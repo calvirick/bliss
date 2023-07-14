@@ -1,22 +1,36 @@
-<script>
-	import IndexBox from '$lib/IndexBox.svelte';
-	import ContentBox from '$lib/ContentBox.svelte';
+<script lang="ts">
+	import IndexBox from '$lib/components/IndexBox.svelte';
+	import Content from '$lib/components/Content.svelte';
+
+	interface IChapterData {
+		chapter: number;
+		title: string;
+	}
+
+	const chapterData: IChapterData[] = [
+		{ chapter: 1, title: 'Tutorial Meadow' },
+		{ chapter: 2, title: 'Entering the Goblin Camp' },
+		{ chapter: 3, title: 'The Mansion Pt1' },
+		{ chapter: 4, title: 'The Mansion Pt2' }
+	];
 </script>
 
 <section class="flex flex-row gap-2">
 	<IndexBox title="Chapters">
-		<a href="/">01: Tutorial Meadow</a>
-		<a href="/">02: Entering the Goblin Camp</a>
-		<a href="/">03: The Mansion Pt1</a>
-		<a href="/">04: The Mansion Pt2</a>
+		{#each chapterData as chapter}
+			<a href="/thestory/{chapter.chapter}">{chapter.chapter}: {chapter.title}</a>
+		{/each}
 	</IndexBox>
 
-	<ContentBox title="Chapter Details" />
+	<Content title="Synopsis & Details">
+		<div class="mt-6">
+			<slot />
+		</div>
+	</Content>
 </section>
-<slot />
 
 <style lang="postcss">
 	a {
-		@apply hover:text-black hover:bg-[#C8B400] hover:font-bold w-full;
+		@apply w-full hover:bg-[#C8B400] hover:font-bold hover:text-black;
 	}
 </style>

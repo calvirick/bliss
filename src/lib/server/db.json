@@ -1,0 +1,13 @@
+[
+	{
+		"chapterData": [
+			{ "chapter": 1, "title": "Tutorial Meadow" },
+			{ "chapter": 2, "title": "Entering the Goblin Camp" },
+			{ "chapter": 3, "title": "The Mansion Pt1" },
+			{ "chapter": 4, "title": "The Mansion Pt2" }
+		]
+	},
+	{
+		"otherdata": [{ "id": 1, "foo": "bar" }]
+	}
+]
