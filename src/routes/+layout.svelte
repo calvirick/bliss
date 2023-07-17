@@ -3,6 +3,7 @@
 	import OptionsBar from '$lib/components/OptionsBar.svelte';
 	import '../app.css';
 	import Tabs from '$lib/components/Tabs.svelte';
+	import { page } from '$app/stores';
 </script>
 
 <WindowBar />

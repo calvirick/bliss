@@ -1,6 +1,6 @@
 <script>
-	//TODO: make this into ASCII art one day, that might be more interesting
-	//TODO: make it where if the mouse hovers over the smily face it moves around the page in a different spot, and moves when you come back to the home page.
+	//TODO: ONE DAY: make this into ASCII art one day, that might be more interesting
+	//TODO: ONE DAY: make it where if the mouse hovers over the smily face it moves around the page in a different spot, and moves when you come back to the home page.
 	let randomInteger = Math.floor(Math.random() * 100);
 	console.log(randomInteger);
 </script>
