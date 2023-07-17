@@ -1,8 +1,8 @@
 <script lang="ts">
 	import { page } from '$app/stores';
 
-	export let url: string = '/';
-	export let color: string = 'bg-white';
+	export let url: string;
+	export let color: string;
 </script>
 
 <li>
