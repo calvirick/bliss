@@ -13,6 +13,7 @@
 		{ id: 9, url: '/mysteries', color: 'bg-fuchsia-600', label: 'Mysteries' }
 	];
 
+	//BUG: tabs persist don't persist in nested routes
 	// TODO: ONE DAY: enable using the keyboard to quick navigate interface.
 	// TODO: complete sub-route pages for each of the anchor tags when navigated to.
 </script>
