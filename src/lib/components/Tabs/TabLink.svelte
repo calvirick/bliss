@@ -9,7 +9,9 @@
 	<a
 		href={url}
 		id="tag-link"
-		class={$page.url.pathname === url ? `${color} font-bold text-black` : `link hover:underline`}
+		class={$page.url.pathname === url
+			? `${color} px-8 font-bold text-black`
+			: `bg-neutral-800 px-8 hover:underline`}
 	>
 		<slot />
 	</a>

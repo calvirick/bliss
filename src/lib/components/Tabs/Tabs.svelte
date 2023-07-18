@@ -1,5 +1,5 @@
 <script lang="ts">
-	import TabLink from './TabLink.svelte';
+	import TabLink from '$lib/components/Tabs/TabLink.svelte';
 
 	const tabData = [
 		{ id: 1, url: '/', color: 'bg-white', label: 'Home' },
@@ -21,7 +21,7 @@
 	<h3 class="z-5 bg-terminal absolute -top-5 left-5 p-4 font-bold" style="user-select: none">
 		Tabs
 	</h3>
-	<ul class="flex flex-row items-center justify-center gap-8 p-3">
+	<ul class="flex flex-row items-center justify-center p-3">
 		<li>|</li>
 		{#each tabData as tab}
 			<TabLink url={tab.url} color={tab.color}>{tab.label}</TabLink>

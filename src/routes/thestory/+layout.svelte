@@ -14,8 +14,6 @@
 		{ id: 3, title: 'The Mansion Pt1' },
 		{ id: 4, title: 'The Mansion Pt2' }
 	];
-
-	console.log($page.url.pathname + '/1');
 </script>
 
 <section class="flex flex-row gap-2">

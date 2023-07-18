@@ -2,8 +2,7 @@
 	import WindowBar from '$lib/components/WindowBar.svelte';
 	import OptionsBar from '$lib/components/OptionsBar.svelte';
 	import '../app.css';
-	import Tabs from '$lib/components/Tabs.svelte';
-	import { page } from '$app/stores';
+	import Tabs from '$lib/components/Tabs/Tabs.svelte';
 </script>
 
 <WindowBar />
