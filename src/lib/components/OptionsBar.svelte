@@ -2,7 +2,7 @@
 	<div class="dropdown px-3 hover:bg-slate-500">
 		<button>File</button>
 		<div class="dropdown-content left-0">
-			<a href="/">Settings</a>
+			<a href="/settings">Settings</a>
 			<a href="/"><s>Quit Game</s></a>
 		</div>
 	</div>
@@ -10,9 +10,9 @@
 	<div class="dropdown px-3 hover:bg-slate-500">
 		<button>Help</button>
 		<div class="dropdown-content left-0">
-			<a href="/" class="">Manuel</a>
-			<a href="/">Hints</a>
-			<a href="/">Documentation</a>
+			<a href="/manual" class="">Manuel</a>
+			<a href="/hints">Hints</a>
+			<a href="/docs">Documentation</a>
 		</div>
 	</div>
 	<div class="dropdown px-3 hover:bg-slate-500">

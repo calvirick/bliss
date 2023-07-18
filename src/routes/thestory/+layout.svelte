@@ -22,8 +22,8 @@
 			<a
 				href="/thestory/{chapter.id}"
 				class={$page.url.pathname.includes(chapter.id.toString())
-					? `bg-[#C8B400] font-bold text-black`
-					: `chapter-link w-full hover:bg-[#908204] hover:font-bold`}
+					? ` bg-[#ffe600] font-bold text-black`
+					: `chapter-link w-full hover:bg-[#C8B400] hover:font-bold`}
 				>{chapter.id}: {chapter.title}</a
 			>
 		{/each}
