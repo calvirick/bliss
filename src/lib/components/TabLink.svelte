@@ -8,15 +8,9 @@
 <li>
 	<a
 		href={url}
-		class={$page.url.pathname === url
-			? `${color} font-bold text-black`
-			: ` focus:${color} active:${color} hover:font-bold hover:text-black hover:${color}`}
+		id="tag-link"
+		class={$page.url.pathname === url ? `${color} font-bold text-black` : `link hover:underline`}
 	>
 		<slot />
 	</a>
 </li>
-
-<style lang="postcss">
-	.tab-link {
-	}
-</style>
